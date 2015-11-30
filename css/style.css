@@ -141,6 +141,23 @@ a {
   padding: 10px;
 }
 
+.flex-item {
+  /* The ul list-style-none below did not work so I added this */
+  list-style: none; 
+  /* For whatever reason, flexbox doesn't seem to work in either of my browsers */
+  display: inline;
+}
+
+.white-text:last {
+  font-size: 50px;
+}
+
+/* To hide certain content like the nonexisting Twitter */
+.hidden {
+  display: none;
+}
+
+
 .center-content {
   padding: 2.5% 5%;
 }
